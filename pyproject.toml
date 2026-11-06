@@ -1,0 +1,16 @@
+[project]
+name = "romero-financas"
+version = "1.0.0"
+description = "Romero Finanças"
+requires-python = ">=3.10"
+dependencies = [
+    "flet"
+]
+
+[tool.flet]
+product = "Romero Finanças"
+
+[tool.flet.app]
+path = "."
+
+org = "com.romerofinancas"
